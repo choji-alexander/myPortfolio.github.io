@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/myPortfolio.github.io/static/css/main.454b747b.css",
+    "main.js": "/myPortfolio.github.io/static/js/main.faebb4b8.js",
+    "static/js/488.21a3b654.chunk.js": "/myPortfolio.github.io/static/js/488.21a3b654.chunk.js",
+    "static/media/onePercentClub.png": "/myPortfolio.github.io/static/media/onePercentClub.d3065281642b98a23266.png",
+    "static/media/about-pic.jpg": "/myPortfolio.github.io/static/media/about-pic.a528aa6f3e407b9c139a.jpg",
+    "static/media/nysc.png": "/myPortfolio.github.io/static/media/nysc.0713471b6c9bc90c0b53.png",
+    "static/media/pythonCertificate.png": "/myPortfolio.github.io/static/media/pythonCertificate.1b6b4fb1f327a46f1781.png",
+    "static/media/ChojiAlexanderPamResume.docx": "/myPortfolio.github.io/static/media/ChojiAlexanderPamResume.34156a6a22d186c0ab6a.docx",
+    "static/media/gig-at-a-startup.png": "/myPortfolio.github.io/static/media/gig-at-a-startup.343e254fcaad15d1205f.png",
+    "static/media/reactCalculator.png": "/myPortfolio.github.io/static/media/reactCalculator.4c5711512d9c77df2bd7.png",
+    "static/media/beng.png": "/myPortfolio.github.io/static/media/beng.0c893dc8621ea4d84ddd.png",
+    "static/media/profile-pic.jpg": "/myPortfolio.github.io/static/media/profile-pic.e25c41cb3637b126986f.jpg",
+    "static/media/jpMorgan.png": "/myPortfolio.github.io/static/media/jpMorgan.9b84f6ab3cbfae73e646.png",
+    "static/media/chojiPic.jpg": "/myPortfolio.github.io/static/media/chojiPic.0f2d63ce1436e915212a.jpg",
+    "static/media/studybud_photo.png": "/myPortfolio.github.io/static/media/studybud_photo.29deb5aa732d62a7e6ec.png",
+    "static/media/reactTimes.png": "/myPortfolio.github.io/static/media/reactTimes.a222914d2d23c81c8b87.png",
+    "static/media/reactToDoList.png": "/myPortfolio.github.io/static/media/reactToDoList.b5eb502c2590848f355b.png",
+    "static/media/leadsTracker_photo.png": "/myPortfolio.github.io/static/media/leadsTracker_photo.c3e25487b8433fcc03ce.png",
+    "static/media/multimedia_photo.png": "/myPortfolio.github.io/static/media/multimedia_photo.e643e387fc0b49695513.png",
+    "static/media/blackjack_photo.png": "/myPortfolio.github.io/static/media/blackjack_photo.ccb9e5b4ece19a938ba9.png",
+    "static/media/linkedin.png": "/myPortfolio.github.io/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "static/media/slick.svg": "/myPortfolio.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/myPortfolio.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/myPortfolio.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/myPortfolio.github.io/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/myPortfolio.github.io/index.html",
+    "main.454b747b.css.map": "/myPortfolio.github.io/static/css/main.454b747b.css.map",
+    "main.faebb4b8.js.map": "/myPortfolio.github.io/static/js/main.faebb4b8.js.map",
+    "488.21a3b654.chunk.js.map": "/myPortfolio.github.io/static/js/488.21a3b654.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.454b747b.css",
+    "static/js/main.faebb4b8.js"
+  ]
+}
