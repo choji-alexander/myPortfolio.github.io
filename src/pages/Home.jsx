@@ -23,7 +23,7 @@ const Home = () => {
       {/* Profile Section */}
       <section id="profile" className="home-profile-section">
         <div className="home-profile-pic-container">
-          <img src={profile_pic} alt="CHOJI ALEXANDER PAM Profile Picture" />
+          <img src={profile_pic} alt="profilePhoto" />
         </div>
         <div className="home-profile-text">
           <p className="home-profile-intro">Hello I'm</p>
