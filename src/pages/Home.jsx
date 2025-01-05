@@ -47,13 +47,13 @@ const Home = () => {
               src={linkedinIcon}
               alt="My LinkedIn Profile"
               className="home-icon"
-              onClick={() => (window.location.href = 'https://www.linkedin.com/in/alexander-choji-4a41a4188')}
-            />
+              onClick={() => window.open('https://www.linkedin.com/in/alexander-choji-4a41a4188', '_blank', 'noopener,noreferrer')}
+              />
             <img
               src={githubIcon}
               alt="My GitHub Profile"
               className="home-icon"
-              onClick={() => (window.location.href = 'https://github.com/choji-alexander')}
+              onClick={() => window.open('https://github.com/choji-alexander', '_blank', 'noopener,noreferrer')}
             />
           </div>
         </div>
@@ -82,7 +82,7 @@ const Home = () => {
 
       {/* Featured Projects */}
       <section className="home-featured-projects">
-        <h2>Featured Projects</h2>
+        <h2>Featured Projects 'Loading...'</h2>
         <div className="home-projects-list">
           <div className="home-project-card">
             <h3>Project 1</h3>
@@ -97,6 +97,11 @@ const Home = () => {
           <div className="home-project-card">
             <h3>Project 3</h3>
             <p>A brief description of Project 3.</p>
+            <Link to="/projects/3" className="home-project-link">View Details</Link>
+          </div>
+          <div className="home-project-card">
+            <h3>Project 4</h3>
+            <p>A brief description of Project 4.</p>
             <Link to="/projects/3" className="home-project-link">View Details</Link>
           </div>
         </div>

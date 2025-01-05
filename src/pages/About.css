@@ -144,3 +144,30 @@
     line-height: 1.5;
 }
 
+@media (max-width: 768px) { /* Target screens with a max width of 768px */
+  .about-row {
+    flex-direction: column; /* Stack the columns vertically */
+  }
+
+  .about-photo {
+    order: -1; /* Move the photo column to the top */
+  }
+
+  .about-text {
+    order: 0; /* Ensure text remains below the image */
+    text-align: center; /* Center text for better readability */
+  }
+}
+
+@media (max-width: 768px) { /* Target screens with max width of 768px */
+  .about-containers {
+    flex-direction: column; /* Stack details containers vertically */
+    align-items: center; /* Center content for better appearance */
+  }
+
+  .details-container {
+    width: 100%; /* Make each container take full width */
+    max-width: 400px; /* Optional: Set max width for better layout */
+    margin-bottom: 20px; /* Add space below each container */
+  }
+}

@@ -110,3 +110,21 @@
     text-align: center;
   }
   
+  @media (max-width: 768px) { /* Target screens with max width of 768px */
+    .outer-container {
+      flex-direction: column; /* Stack all containers vertically */
+      gap: 0; /* Remove unnecessary gaps */
+    }
+  
+    .experience-details-container.middle {
+      width: 100%; /* Allow middle container to span full width */
+    }
+  
+    .experience-details-container0 {
+      display: none; /* Hide the side containers */
+    }
+  
+    .experience-about-containers {
+      padding: 0 10px; /* Add padding for better appearance on mobile */
+    }
+  }

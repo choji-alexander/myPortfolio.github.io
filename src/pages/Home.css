@@ -100,6 +100,11 @@
   .home-services-section {
     padding: 60px 20px;
     text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
   .home-services-list {
     display: flex;
@@ -112,41 +117,20 @@
     max-width: calc(33% - 20px);
     background: #f9f9f9;
     padding: 20px;
-    border-radius: 8px;
-    text-align: left;
-  }
-
-  .home-services-section {
-    padding: 4rem 2rem;
-    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
     text-align: center;
+    width: 300px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
   }
-  
+
   .home-services-heading {
     font-size: 2.5rem;
     color: #A9A9A9;
     margin-bottom: 2rem;
     font-weight: bold;
   }
-  
-  .home-services-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-  }
-  
-  .home-service-item {
-    background: #fff;
-    padding: 2rem;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
+
   .home-service-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
@@ -154,7 +138,7 @@
   
   .home-service-icon {
     font-size: 3rem;
-    color: #007bff;
+    color: #a9a9a9;
     margin-bottom: 1rem;
   }
   
@@ -168,13 +152,6 @@
     font-size: 1rem;
     color: #555;
     line-height: 1.5;
-  }
-  
-  @media (max-width: 768px) {
-    .home-services-list {
-      flex-direction: column;
-      gap: 1.5rem;
-    }
   }
   
   
@@ -261,3 +238,56 @@
     margin-right: 10px;
     cursor: pointer;
   }
+
+  @media (max-width: 768px) { /* Adjust the max-width to target your desired breakpoint */
+    .home-profile-section {
+      display: flex;
+      flex-direction: column; /* Stack the divs vertically */
+    }
+  
+    .home-profile-pic-container {
+      order: -1; /* Move this div to the top */
+    }
+  }
+
+  @media (max-width: 768px) { /* Adjust the breakpoint as needed */
+    .home-about-container {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+    }
+  
+    .home-about-container .home-about-content:last-child {
+      order: -1; /* Move the image container to the top */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .home-services-list {
+      flex-direction: column; /* Stack items vertically */
+      gap: 1.5rem;
+      padding: 0;
+      margin: 0;
+      justify-content: center; /* Center items */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    .home-service-item {
+      width: 100%; /* Make the service item fill the container width */
+      box-sizing: border-box; /* Include padding and border in width calculation */
+      padding: 20px; /* Add padding for better spacing inside the item */
+      text-align: center; /* Center the text and content */
+      flex: 1 1 100%; /* Take full width on smaller screens */
+      max-width: 100%; /* Ensure it doesn't exceed the parent container width */
+    }
+  
+    .home-service-icon {
+      font-size: 2.5em; /* Adjust icon size for mobile */
+      margin-bottom: 10px; /* Add space below the icon */
+    }}
+
+    @media (max-width: 768px) {
+      .home-services-section {
+          padding: 20px 10px; /* Reduce padding for better spacing */
+      }
+  }
+  

@@ -40,9 +40,9 @@ function Navbar() {
 
         {/* Social Media Icons */}
         <div className="navbar-socials">
-          <a href="https://facebook.com" className="social-icon"><FaFacebook /></a>
-          <a href="https://instagram.com" className="social-icon"><FaInstagram /></a>
-          <a href="https://www.linkedin.com/in/alexander-choji-4a41a4188/" className="social-icon"><FaLinkedin /></a>
+          <a href="https://facebook.com" className="social-icon"  target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+          <a href="https://instagram.com/devchoji" className="social-icon" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a href="https://www.linkedin.com/in/alexander-choji-4a41a4188/" className="social-icon" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         </div>
       </div>
     </header>
