@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, sans-serif;
-    margin-top: 60px;  /* Ensure the content is below the fixed navbar */
+    margin-top: 75px;  /* Ensure the content is below the fixed navbar */
   }
   
   .project-details-container .project-title {

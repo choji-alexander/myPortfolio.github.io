@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Assuming you're using React Router for navigation
 import './Projects.css'; // Your custom styles for the projects page
 import reactCalculator from "../assets/reactCalculator.png";
-import reactTimes from "../assets/reactTimes.png";
 import leadsTracker from "../assets/leadsTracker_photo.png";
 import studyBud from "../assets/studybud_photo.png";
 import reactToDoList from "../assets/reactToDoList.png";
@@ -38,10 +37,10 @@ const Projects = () => {
         },
     {
       id: 4, 
-      title: 'React Times', 
-      description: 'A basic illustration of a Blog Web Application.', 
-      techStack: ['React', 'HTML', 'CSS', 'JavaScript'], 
-      imgUrl: reactTimes,
+      title: 'BlackJack Game', 
+      description: 'A simple BlackJack game.', 
+      techStack: ['HTML', 'CSS', 'JavaScript'], 
+      imgUrl: blackJack,
       detailsLink: '/projects/4'
     },
     { 
@@ -70,20 +69,13 @@ const Projects = () => {
       },
       {
         id: 8, 
-        title: 'BlackJack Game', 
-        description: 'A simple BlackJack game.', 
-        techStack: ['HTML', 'CSS', 'JavaScript'], 
-        imgUrl: blackJack,
-        detailsLink: '/projects/8'
-      },
-      {
-        id: 9, 
         title: 'Multimedia Website', 
         description: 'A simple and basic illustration of a Multimedia Web Application.', 
         techStack: ['HTML', 'Python', 'Django'], 
         imgUrl: multimedia,
         detailsLink: '/projects/9'
       },
+      
     // Add more completed projects here
   ];
 
