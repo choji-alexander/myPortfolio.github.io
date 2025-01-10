@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/myPortfolio.github.io/static/css/main.1b2a4978.css",
-    "main.js": "/myPortfolio.github.io/static/js/main.5b15a954.js",
+    "main.js": "/myPortfolio.github.io/static/js/main.e755e877.js",
     "static/js/488.91ee2a69.chunk.js": "/myPortfolio.github.io/static/js/488.91ee2a69.chunk.js",
     "static/media/studyBudVideo.mp4": "/myPortfolio.github.io/static/media/studyBudVideo.c6a555c0ab5f9c62b960.mp4",
     "static/media/reactCalculatorVideo.mp4": "/myPortfolio.github.io/static/media/reactCalculatorVideo.46ce06707728bc96babf.mp4",
+    "static/media/multimediaVideo.mp4": "/myPortfolio.github.io/static/media/multimediaVideo.4bb15b8a2022a1d0b9f8.mp4",
     "static/media/onePercentClub.png": "/myPortfolio.github.io/static/media/onePercentClub.d3065281642b98a23266.png",
     "static/media/about-pic.jpg": "/myPortfolio.github.io/static/media/about-pic.a528aa6f3e407b9c139a.jpg",
     "static/media/nysc.png": "/myPortfolio.github.io/static/media/nysc.0713471b6c9bc90c0b53.png",
@@ -27,9 +28,11 @@
     "static/media/studyBud3.png": "/myPortfolio.github.io/static/media/studyBud3.b2dad298896082d75360.png",
     "static/media/reactCalculator3.png": "/myPortfolio.github.io/static/media/reactCalculator3.af4221c53f5ce8bbad8e.png",
     "static/media/reactCalculator1.png": "/myPortfolio.github.io/static/media/reactCalculator1.e907eb18462bf2606200.png",
+    "static/media/multimedia1.png": "/myPortfolio.github.io/static/media/multimedia1.cde6016899f4a2c6d795.png",
     "static/media/reactToDoList.png": "/myPortfolio.github.io/static/media/reactToDoList.b5eb502c2590848f355b.png",
     "static/media/leadsTracker_photo.png": "/myPortfolio.github.io/static/media/leadsTracker_photo.c3e25487b8433fcc03ce.png",
     "static/media/multimedia_photo.png": "/myPortfolio.github.io/static/media/multimedia_photo.e643e387fc0b49695513.png",
+    "static/media/multimedia2.png": "/myPortfolio.github.io/static/media/multimedia2.fba2551c696ea3de79a2.png",
     "static/media/toDoList2.png": "/myPortfolio.github.io/static/media/toDoList2.30638974ef462ea67b9e.png",
     "static/media/blackjack_photo.png": "/myPortfolio.github.io/static/media/blackjack_photo.ccb9e5b4ece19a938ba9.png",
     "static/media/blackJack3.png": "/myPortfolio.github.io/static/media/blackJack3.875af76e02e8b274e073.png",
@@ -37,6 +40,7 @@
     "static/media/blackJack2.png": "/myPortfolio.github.io/static/media/blackJack2.2dcbdfe00ad8f269fc78.png",
     "static/media/toDoList.png": "/myPortfolio.github.io/static/media/toDoList.4c8b29979290c5b5a220.png",
     "static/media/leadsTracker2.png": "/myPortfolio.github.io/static/media/leadsTracker2.72658d9d7fce44c700ad.png",
+    "static/media/multimedia3.png": "/myPortfolio.github.io/static/media/multimedia3.a62b43745483039a2f98.png",
     "static/media/leadsTracker1.png": "/myPortfolio.github.io/static/media/leadsTracker1.c8f4ff018e8b61a7f4db.png",
     "static/media/linkedin.png": "/myPortfolio.github.io/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "static/media/toDoList3.png": "/myPortfolio.github.io/static/media/toDoList3.fe4a4864e0b9ca2f9929.png",
@@ -46,11 +50,11 @@
     "static/media/slick.woff": "/myPortfolio.github.io/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/myPortfolio.github.io/index.html",
     "main.1b2a4978.css.map": "/myPortfolio.github.io/static/css/main.1b2a4978.css.map",
-    "main.5b15a954.js.map": "/myPortfolio.github.io/static/js/main.5b15a954.js.map",
+    "main.e755e877.js.map": "/myPortfolio.github.io/static/js/main.e755e877.js.map",
     "488.91ee2a69.chunk.js.map": "/myPortfolio.github.io/static/js/488.91ee2a69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b2a4978.css",
-    "static/js/main.5b15a954.js"
+    "static/js/main.e755e877.js"
   ]
 }
