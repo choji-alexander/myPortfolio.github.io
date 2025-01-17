@@ -7,11 +7,6 @@ import studyBud from "../assets/studybud_photo.png";
 import reactToDoList from "../assets/reactToDoList.png";
 import blackJack from "../assets/blackjack_photo.png";
 import multimedia from "../assets/multimedia_photo.png";
-import gsws from "../assets/gsws.png";
-import emigr8 from "../assets/emigr8.png";
-import userAuth from "../assets/UserAuth.png";
-import coutureHub from "../assets/coutureHub.png";
-import medlab from "../assets/medlab.JPG";
 
 
 const Projects = () => {
@@ -101,12 +96,12 @@ const Projects = () => {
       detailsLink: '/projects/101'
     },
     {
-      id: 102, 
-      title: 'Med Lab App', 
-      description: 'Simplifying Access to Medical Services', 
-      techStack: ["No-code(Flutterflow.io)"], 
-      imgUrl: medlab,
-      detailsLink: '/projects/102'
+      id: 4, 
+      title: 'Project 4', 
+      description: 'Short description of the ongoing project 4', 
+      techStack: ['Python', 'Django'], 
+      imgUrl: 'project4-thumbnail.jpg',
+      detailsLink: '/projects/4'
     },
     // Add more current projects here
   ];

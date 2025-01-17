@@ -34,6 +34,33 @@ import userAuth3 from "../assets/UserAuth3.png"
 import coutureHub1 from "../assets/coutureHub1.png"
 import coutureHub2 from "../assets/coutureHub2.png"
 import coutureHub3 from "../assets/coutureHub3.png"
+import proppal1 from "../assets/proppal1.png";
+import proppal2 from "../assets/proppal2.png";
+import proppal3 from "../assets/proppal3.png";
+import yourViewz1 from "../assets/yourViewz1.png";
+import yourViewz2 from "../assets/yourViewz2.png";
+import yourViewz3 from "../assets/yourViewz3.png";
+import websiteShow1 from "../assets/websiteShow1.png";
+import websiteShow2 from "../assets/websiteShow2.png";
+import angelman1 from "../assets/angelman2.png";
+import angelman2 from "../assets/angelman3.png";
+import angelman3 from "../assets/angelman4.png";
+import afripay1 from "../assets/afripay1.png";
+import afripay2 from "../assets/afripay2.png";
+import afripay3 from "../assets/afripay3.png";
+import whatTime1 from "../assets/whatTime1.png";
+import whatTime2 from "../assets/whatTime2.png";
+import whatTime3 from "../assets/whatTime3.png";
+import eazyLinks1 from "../assets/eazyLinks1.png";
+import eazyLinks2 from "../assets/eazyLinks2.png";
+import eazyLinks3 from "../assets/eazyLinks3.png";
+import angelmanVid from "../assets/angelmanVid.mp4";
+import eazyLinksVid from "../assets/eazyLinksVid.mp4";
+import whatTimeVid from "../assets/whatTimeVid.mp4";
+import afripayVid from "../assets/afripayVid.mp4";
+import websiteShowVid from "../assets/websiteShowVid.webm";
+import yourViewzVid from "../assets/yourViewzVid.mp4";
+import proppalVid from "../assets/proppalVid.mp4";
 import reactCalculatorVideo from "../assets/reactCalculatorVideo.mp4";
 import blackjackVideo from "../assets/BlackJackVideo.mp4";
 import leadsTrackerVideo from "../assets/leadsTrackerVideo.mp4";
@@ -45,7 +72,6 @@ import gswsVideo from "../assets/gswsVideo.mp4";
 import emigr8Video from "../assets/eMigr8Video.mp4";
 import userAuthVideo from "../assets/userAuthVideo.mp4";
 import coutureHubVideo from "../assets/coutureHubVideo.mp4";
-
 
 
 // Example projects data (replace this with a fetch call or API integration in a real app)
@@ -162,6 +188,84 @@ As the sole developer, I implemented the system’s core functionality, ensuring
     repoLink: "https://github.com/choji-alexander/Ecommerce-frontend",
     techStack: ['HTML', 'React', 'Javascript', 'CSS'],
     additionalInfo: `This project highlights my expertise in modern front-end development and authentication integrations. It reflects my capability to build scalable, secure, and user-centric solutions that are vital for applications requiring robust identity management.`,
+  },
+  {
+    id: 10,
+    title: "PropPal",
+    shortDescription: `The PropPal project is a comprehensive property management web application developed using React for the frontend and Django for the backend. It provides users with a seamless experience to browse, list, and manage properties, catering to both property seekers and owners. The application features user authentication, property listings with detailed information, and an intuitive interface for easy navigation. This project showcases my ability to build full-stack web applications that integrate robust backend functionality with a clean and responsive frontend design. 
+    PropPal supports secure user registration and login, allowing users to create profiles and manage their property listings. The platform's dynamic features enable users to search for properties based on various criteria, view detailed property information, and contact property owners directly through the application. The responsive design ensures optimal usability across different devices, providing an excellent user experience on both desktop and mobile platforms. Future enhancements for PropPal could include features like advanced search filters, property comparison tools, and integration with third-party services for enhanced property management capabilities.`,
+    gallery: [proppal1, proppal2, proppal3],
+    videos: [proppalVid],
+    liveLink: "#",
+    repoLink: "#",
+    techStack: ['Flutter/Dart', 'Firebase', 'Flutterflow',],
+    additionalInfo: `The PropPal project is a testament to my expertise in full-stack web development, combining functional utility with an engaging user interface. It demonstrates my ability to address real-world challenges in application design and development, from secure user authentication to dynamic property management features. This project not only reflects my technical skills but also my dedication to creating practical solutions that enhance user engagement and streamline property management processes. By addressing the needs of both property seekers and owners, PropPal underscores my commitment to developing applications that facilitate efficient and effective real estate interactions.`,
+  },
+  {
+    id: 11,
+    title: "YourViewz",
+    shortDescription: `YourViewz is a versatile platform designed to help users discover, view, and book adverts for a wide range of products and services, including events, hotels, restaurants, clubs, car rentals, and service apartments. Built with Flutter/Dart, Firebase, and Flutterflow, the app provides a seamless experience for both businesses and customers, enabling easy browsing and booking through an intuitive interface. The platform supports dynamic listings, real-time updates, and secure user authentication, making it a one-stop solution for connecting users with local offerings and experiences.`,
+    gallery: [yourViewz1, yourViewz2, yourViewz3],
+    videos: [yourViewzVid],
+    liveLink: "#",
+    repoLink: "#",
+    techStack: ['Flutter/Dart', 'Firebase', 'Flutterflow',],
+    additionalInfo: `YourViewz demonstrates my ability to build scalable, user-focused applications that bridge the gap between service providers and customers. By integrating robust backend features with a clean and responsive frontend, the platform streamlines the process of discovering and booking services. This project highlights my commitment to creating practical solutions that enhance user engagement and simplify access to local products and experiences, paving the way for future enhancements such as advanced search, personalized recommendations, and third-party integrations.`,
+  },
+  {
+    id: 12,
+    title: "Website Showcase",
+    shortDescription: `Website Showcase is a simple platform designed to display an illustration of a company website. Built with Wordpress, HTML/CSS, and Javascript, the site provides a seamless experience for users to browse and view company website. The platform supports services showcase and real-time updates, making it a one-stop solution for showcasing various online offerings.`,
+    gallery: [websiteShow1, websiteShow2,],
+    videos: [websiteShowVid],
+    liveLink: "#",
+    repoLink: "#",
+    techStack: ['Wordpress', 'HTML/CSS', 'Javascript'],
+    additionalInfo: `Website Showcase demonstrates my ability to create user-friendly platforms that effectively present a variety of online content. By leveraging popular web technologies, this project highlights my commitment to delivering engaging and accessible solutions for users seeking to explore diverse websites. Future enhancements could include advanced filtering options, user-generated content submissions, and integration with third-party APIs to enrich the showcased offerings.`,
+  },
+  {
+    id: 13,
+    title: "Angelman Syndrome",
+    shortDescription: `The Angelman Syndrome app is a dedicated social networking and support platform built with Flutter/Dart, Firebase, and Flutterflow. Designed for the Angelman Syndrome community, it connects patients, caregivers, families, and supporters, providing a secure space for sharing experiences, accessing resources, and fostering meaningful connections. Key features include secure authentication, community feeds, interest-based groups, real-time chat, and patient management tools, all aimed at enhancing support and information sharing.`,
+    gallery: [angelman1, angelman2, angelman3],
+    videos: [angelmanVid],
+    liveLink: "#",
+    repoLink: "#",
+    techStack: ['Flutter/Dart', 'Firebase', 'Flutterflow',],
+    additionalInfo: `This project highlights my ability to create impactful, user-centered platforms that address real-world health and community needs. By integrating robust communication tools and secure user management, the Angelman Syndrome app empowers users to connect, share, and support each other. Future enhancements could include advanced resource libraries, event scheduling, and integration with healthcare providers to further enrich the community experience.`,
+  },
+  {
+    id: 14,
+    title: "Afripay",
+    shortDescription: `AfriPay is a secure digital payments and financial‑services platform built for mobile and web. It provides users with a convenient wallet to fund and withdraw money, send and receive funds to other AfriPay users, bank accounts or mobile numbers, and pay merchants via QR codes. The home dashboard shows balance, recent transactions and quick actions like funding, withdrawing, bills and airtime/data purchase. Users can also manage bill payments, view transaction details and, optionally, access savings plans or micro loans. Robust security features—OTP verification, transaction PINs, biometrics and device management—protect every transaction, while KYC verification ensures compliance. A built‑in profile section lets users update personal details, manage their PIN or password and adjust notification settings. For teams, admin/agent tools support customer management and reporting, and an in‑app support centre offers FAQs, chat and feedback.`,
+    gallery: [afripay1, afripay2, afripay3],
+    videos: [afripayVid],
+    liveLink: "#",
+    repoLink: "#",
+    techStack: ['Flutter/Dart', 'Firebase', 'Flutterflow',],
+    additionalInfo: `The AfriPay project showcases my expertise in building secure, user-centric financial platforms for both mobile and web. By integrating advanced security measures and comprehensive payment features, AfriPay delivers a seamless experience for individual users and teams alike. This project reflects my commitment to developing scalable solutions that simplify digital transactions, enhance financial management, and ensure regulatory compliance. Future enhancements could include expanded payment integrations, analytics dashboards, and personalized financial tools to further empower users and businesses.`,
+  },
+  {
+    id: 15,
+    title: "WhatTime",
+    shortDescription: `WhatTime is a feature-rich Flutter application that helps users manage, compare, and explore time, holidays, events, weather, and currency across the globe. It combines world time utilities, holiday/event countdowns, weather forecasts, and currency conversion into a single, intuitive platform. Users can view time zones, schedule events, check weather, and access global information with a modern, easy-to-navigate interface—making it the ideal companion for travelers, event planners, and anyone needing a beautiful all-in-one time utility app.`,
+    gallery: [whatTime1, whatTime2, whatTime3],
+    videos: [whatTimeVid],
+    liveLink: "#",
+    repoLink: "https://github.com/choji-alexander/whatTimeApp",
+    techStack: ['Flutter/Dart', 'Firebase', 'Flutterflow'],
+    additionalInfo: `WhatTime showcases my expertise in building comprehensive, cross-platform solutions using Flutter, Firebase, and real-time APIs. Key features include world time display, location selection, timezone info, DST adjustments, sunrise/sunset times, weather forecasts, personal and global event countdowns, time comparison tools, currency conversion, and offline/cloud support. The app uses advanced state management, custom UI components, and robust error handling for a seamless experience. With adaptive themes, interactive maps, and cloud/offline data, WhatTime delivers a global perspective and practical tools for users everywhere. Future enhancements could include AI-driven recommendations, analytics, and deeper integration with productivity tools.`,
+  },
+  {
+    id: 16,
+    title: "EazyLinks",
+    shortDescription: `EazyLinks is a modern, mobile-first marketplace app that connects users with trusted local service providers across a wide range of categories. Designed for both customers and providers, EazyLinks streamlines the process of finding, booking, and managing essential services—such as plumbing, cleaning, electrical, and handyman jobs—through a secure, intuitive platform. With features like service discovery, provider profiles, booking management, in-app messaging, and integrated payments, EazyLinks makes accessing help and growing a service business easier than ever.`,
+    gallery: [eazyLinks1, eazyLinks2, eazyLinks3],
+    videos: [eazyLinksVid],
+    liveLink: "#",
+    repoLink: "https://github.com/choji-alexander/eazyLinks",
+    techStack: ['Flutter/Dart', 'Firebase', 'Flutterflow'],
+    additionalInfo: `EazyLinks demonstrates my ability to build scalable, role-based marketplace solutions using Flutter and Firebase. The app features secure authentication, profile management, service discovery, provider dashboards, booking and job management, real-time chat, reviews, and integrated payments via multiple gateways. Admin tools allow for easy data seeding and management. With responsive UI, smart search/filtering, and robust onboarding for both users and providers, EazyLinks delivers a seamless experience for all roles. Future enhancements could include advanced analytics, expanded service categories, and deeper integration with third-party APIs to further empower users and providers.`,
   },
   {
     id: 101,
