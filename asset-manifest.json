@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myPortfolio.github.io/static/css/main.1b2a4978.css",
-    "main.js": "/myPortfolio.github.io/static/js/main.11c29dcf.js",
+    "main.css": "/myPortfolio.github.io/static/css/main.77922f98.css",
+    "main.js": "/myPortfolio.github.io/static/js/main.0a55f24e.js",
     "static/js/488.91ee2a69.chunk.js": "/myPortfolio.github.io/static/js/488.91ee2a69.chunk.js",
     "static/media/eMigr8Video.mp4": "/myPortfolio.github.io/static/media/eMigr8Video.b37d4d2f5e09567b3d5b.mp4",
     "static/media/gswsVideo.mp4": "/myPortfolio.github.io/static/media/gswsVideo.6ad6810d8afe296d03dc.mp4",
@@ -73,12 +73,12 @@
     "static/media/slick.ttf": "/myPortfolio.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/myPortfolio.github.io/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/myPortfolio.github.io/index.html",
-    "main.1b2a4978.css.map": "/myPortfolio.github.io/static/css/main.1b2a4978.css.map",
-    "main.11c29dcf.js.map": "/myPortfolio.github.io/static/js/main.11c29dcf.js.map",
+    "main.77922f98.css.map": "/myPortfolio.github.io/static/css/main.77922f98.css.map",
+    "main.0a55f24e.js.map": "/myPortfolio.github.io/static/js/main.0a55f24e.js.map",
     "488.91ee2a69.chunk.js.map": "/myPortfolio.github.io/static/js/488.91ee2a69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b2a4978.css",
-    "static/js/main.11c29dcf.js"
+    "static/css/main.77922f98.css",
+    "static/js/main.0a55f24e.js"
   ]
 }
