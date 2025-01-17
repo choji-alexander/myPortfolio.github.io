@@ -7,6 +7,9 @@ import studyBud from "../assets/studybud_photo.png";
 import reactToDoList from "../assets/reactToDoList.png";
 import blackJack from "../assets/blackjack_photo.png";
 import multimedia from "../assets/multimedia_photo.png";
+import gsws from "../assets/gsws.png";
+import emigr8 from "../assets/emigr8.png";
+import userAuth from "../assets/UserAuth.png";
 
 
 const Projects = () => {
@@ -21,10 +24,10 @@ const Projects = () => {
     },
     { 
         id: 2, 
-        title: 'Project 2', 
-        description: 'Short description of the completed project 1', 
-        techStack: ['React', 'Node.js'], 
-        imgUrl: 'project1-thumbnail.jpg', 
+        title: 'eMigr8 App', 
+        description: 'A Cross-Platform App for Relocation and Immigration', 
+        techStack: ['No-code(Flutterflow.io)'], 
+        imgUrl: emigr8, 
         detailsLink: '/projects/2'
       },
     { 
@@ -69,32 +72,39 @@ const Projects = () => {
       },
       {
         id: 8, 
-        title: 'Multimedia Website', 
+        title: 'Multimedia Web App', 
         description: 'A simple and basic illustration of a Multimedia Web Application.', 
         techStack: ['HTML', 'Python', 'Django'], 
         imgUrl: multimedia,
+        detailsLink: '/projects/8'
+      },
+      {
+        id: 9, 
+        title: 'User Authentication', 
+        description: 'A simple and basic illustration of Google, twitter and microsoft authentication.', 
+        techStack: ['HTML', 'React', 'Javascript', 'CSS'], 
+        imgUrl: userAuth,
         detailsLink: '/projects/9'
       },
-      
     // Add more completed projects here
   ];
 
   const currentProjects = [
     { 
-      id: 3, 
-      title: 'Project 3', 
-      description: 'Short description of the ongoing project 3', 
-      techStack: ['Vue', 'Firebase'], 
-      imgUrl: 'project3-thumbnail.jpg', 
-      detailsLink: '/projects/3'
+      id: 101, 
+      title: 'Github Stats Web Services', 
+      description: 'A Django and React-Based Analytics Platform', 
+      techStack: ['Python', 'Django', 'Javascript', 'React', 'HTML', 'CSS', 'dbsqlite'], 
+      imgUrl: gsws, 
+      detailsLink: '/projects/101'
     },
     {
-      id: 4, 
+      id: 102, 
       title: 'Project 4', 
       description: 'Short description of the ongoing project 4', 
       techStack: ['Python', 'Django'], 
       imgUrl: 'project4-thumbnail.jpg',
-      detailsLink: '/projects/4'
+      detailsLink: '/projects/102'
     },
     // Add more current projects here
   ];

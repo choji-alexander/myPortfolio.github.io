@@ -16,11 +16,27 @@ import studyBud3 from "../assets/studyBud3.png";
 import toDoList1 from "../assets/toDoList.png";
 import toDoList2 from "../assets/toDoList2.png";
 import toDoList3 from "../assets/toDoList3.png";
+import multimedia1 from "../assets/multimedia1.png";
+import multimedia2 from "../assets/multimedia2.png";
+import multimedia3 from "../assets/multimedia3.png";
+import gsws1 from "../assets/gsws.png";
+import gsws2 from "../assets/gsws2.png";
+import gsws3 from "../assets/gsws3.png"
+import emigr81 from "../assets/emigr81.png"
+import emigr82 from "../assets/emigr82.png"
+import emigr83 from "../assets/emigr83.png"
+import userAuth1 from "../assets/UserAuth1.png"
+import userAuth2 from "../assets/UserAuth2.png"
+import userAuth3 from "../assets/UserAuth3.png"
 import reactCalculatorVideo from "../assets/reactCalculatorVideo.mp4";
 import blackjackVideo from "../assets/BlackJackVideo.mp4";
 import leadsTrackerVideo from "../assets/leadsTrackerVideo.mp4";
 import studyBudVideo from "../assets/studyBudVideo.mp4";
 import toDoListVideo from "../assets/toDoListVideo.mp4";
+import multimediaVideo from "../assets/multimediaVideo.mp4";
+import gswsVideo from "../assets/gswsVideo.mp4";
+import emigr8Video from "../assets/eMigr8Video.mp4";
+import userAuthVideo from "../assets/userAuthVideo.mp4";
 
 
 // Example projects data (replace this with a fetch call or API integration in a real app)
@@ -38,14 +54,15 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Project 2",
-    shortDescription: "This is a brief writeup about Project 2, its purpose, and features.",
-    gallery: ["project2-image1.jpg", "project2-image2.jpg"],
-    videos: ["https://www.youtube.com/embed/example-video2"],
-    liveLink: "https://example.com/project2",
-    repoLink: "https://github.com/example/project2",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    additionalInfo: "Project 2 aims to solve ...",
+    title: "eMigr8 App",
+    shortDescription: `The Emigr8 app is a live cross-platform solution available on the App Store and Play Store, designed to simplify relocation, immigration, and emigration processes. Developed using the no-code tool FlutterFlow, it provides users with an intuitive platform to register, explore opportunities, and manage their migration needs. Key features include user registration and onboarding, step-by-step immigration workflow management, access to visa and job resources, and a responsive design optimized for both Android and iOS devices.
+As the sole developer of the MVP1 phase, under the mentorship of senior colleagues, I built the app’s foundation with a focus on usability, functionality, and scalability. Leveraging FlutterFlow's capabilities, I implemented tailored workflows, Firebase-based secure data management, and dynamic pages for a seamless user experience. The app highlights my ability to independently deliver professional-grade solutions under tight deadlines while ensuring future scalability and user satisfaction.`,
+    gallery: [emigr81, emigr82, emigr83],
+    videos: [emigr8Video],
+    liveLink: "#",
+    repoLink: "https://flutterflow.io",
+    techStack: ['No-code(Flutterflow.io)'],
+    additionalInfo: `Emigr8 demonstrates my ability to independently create functional, user-friendly applications while leveraging modern tools like FlutterFlow. This project reflects my commitment to delivering impactful solutions, combining my technical expertise with a deep understanding of user needs. Through Emigr8, I successfully bridged technology and service delivery to create a platform that simplifies complex processes for users worldwide.`,
   },
   {
     id: 3,
@@ -111,6 +128,43 @@ This project highlights the core features of React, such as component-based arch
     techStack: ['React+Vite,', 'HTML', 'CSS', 'JavaScript'],
     additionalInfo: `The React To-Do List project exemplifies my ability to create interactive and responsive web applications using modern technologies. It combines simplicity with functional utility, demonstrating my skills in leveraging React's powerful features to build dynamic interfaces. This project reflects my commitment to solving everyday problems through technology, offering a practical solution for task management. By focusing on usability and performance, the React To-Do List serves as a testament to my proficiency in React and my dedication to delivering user-friendly applications.`,
   },
+  {
+    id: 8,
+    title: "Multimedia Web App",
+    shortDescription: `The Multimedia Web App is an intuitive and engaging platform developed with Python, Django, and HTML. It empowers users with a simple and accessible interface, enabling them to upload and share multimedia content seamlessly. Whether sharing photos or videos, users can contribute to a growing library of media while exploring uploads from others. The app combines robust back-end functionality with a responsive front-end to deliver a user-friendly experience across devices.
+
+This project highlights my ability to build full-stack web applications with a focus on user interaction and efficient data management. Using Django's FileField and ImageField, the app ensures secure media uploads and organized storage. Its intuitive design supports dynamic media loading, while features like real-time updates enhance usability. Future enhancements could include user accounts, categories for better organization, and interactive features like comments and likes, making the platform even more engaging and versatile.`,
+    gallery: [multimedia1, multimedia2, multimedia3],
+    videos: [multimediaVideo],
+    liveLink: "#",
+    repoLink: "https://github.com/choji-alexander/MultimediaWebsite_backup",
+    techStack: ['HTML', 'Python', 'Django'],
+    additionalInfo: `The Multimedia Web App is a testament to my expertise in web application development using Django and Python. It highlights my ability to create functional and visually appealing platforms that cater to real-world needs. By seamlessly combining back-end logic with an interactive front-end, the project reflects my commitment to building practical, user-friendly solutions.`,
+  },
+  {
+    id: 9,
+    title: "User Authentication",
+    shortDescription: `The User Authentication Project is a robust authentication system built using React and JavaScript, with seamless integration capabilities for Django backends. It supports Google Auth, Twitter Auth, and Microsoft Auth, providing users with multiple secure options to authenticate their accounts. The project emphasizes simplicity and security, delivering a responsive and user-friendly experience for handling login and account management workflows.
+As the sole developer, I implemented the system’s core functionality, ensuring compatibility with third-party authentication providers and backend integrations. By leveraging React’s component-based architecture and modern JavaScript practices, I created a scalable and reusable authentication framework. The project showcases my ability to develop secure and reliable authentication systems that enhance user trust and streamline access management.`,
+    gallery: [userAuth1, userAuth2, userAuth3],
+    videos: [userAuthVideo],
+    liveLink: "#",
+    repoLink: "https://github.com/choji-alexander/Ecommerce-frontend",
+    techStack: ['HTML', 'React', 'Javascript', 'CSS'],
+    additionalInfo: `This project highlights my expertise in modern front-end development and authentication integrations. It reflects my capability to build scalable, secure, and user-centric solutions that are vital for applications requiring robust identity management.`,
+  },
+  {
+    id: 101,
+    title: "Github Stats Web Services",
+    shortDescription: `The GitHub Web Stats project is a full-stack analytics platform developed with Django and React, designed to provide users with comprehensive insights into their GitHub activities. The application features a personalized dashboard where users can track repository activity, contribution trends, and top-performing repositories. Dynamic charts and graphs visually represent data such as coding language distribution and daily contributions, while secure GitHub OAuth integration ensures user privacy and data security. With its responsive design, the platform offers an intuitive experience across desktop and mobile devices.
+This project demonstrates my ability to integrate robust back-end solutions with dynamic front-end interfaces. Key development highlights include using Django REST Framework for API handling, React hooks for state management, and data visualization tools like Chart.js for creating interactive graphs. Future enhancements could include historical analysis, milestone notifications, and exportable reports, making the platform even more engaging and functional.`,
+    gallery: [gsws1, gsws2, gsws3],
+    videos: [gswsVideo],
+    liveLink: "#",
+    repoLink: "https://github.com/choji-alexander/gsws",
+    techStack: ['Python', 'Django', 'Javascript', 'React', 'HTML', 'CSS', 'dbsqlite'],
+    additionalInfo: `The GitHub Web Stats project is a testament to my expertise in full-stack web development, showcasing my ability to build engaging and functional platforms that solve real-world problems. By integrating Django's powerful back-end capabilities with React's dynamic front-end tools, this project reflects my commitment to delivering innovative and user-friendly solutions tailored to individual needs.`,
+  },
   // Add more projects here
 ];
 
@@ -134,7 +188,7 @@ const ProjectDetails = () => {
 
       {project.gallery.length > 0 && (
         <div className="project-gallery">
-          <h3>Project Gallery</h3>
+          <h3>Project Screenshots</h3>
           <div className="gallery-grid">
   {project.gallery.map((image, index) => (
     <img
@@ -151,7 +205,7 @@ const ProjectDetails = () => {
 
       {project.videos.length > 0 && (
         <div className="project-videos">
-          <h3>Project Video</h3>
+          <h3>Project Demo</h3>
           <div className="videos-grid">
             {project.videos.map((video, index) => (
               <iframe
