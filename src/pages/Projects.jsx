@@ -10,16 +10,18 @@ import multimedia from "../assets/multimedia_photo.png";
 import gsws from "../assets/gsws.png";
 import emigr8 from "../assets/emigr8.png";
 import userAuth from "../assets/UserAuth.png";
+import coutureHub from "../assets/coutureHub.png";
+import medlab from "../assets/medlab.JPG";
 
 
 const Projects = () => {
   const completedProjects = [
     { 
       id: 1, 
-      title: 'Project 1', 
-      description: 'Short description of the completed project 1', 
-      techStack: ['React', 'Node.js'], 
-      imgUrl: 'project1-thumbnail.jpg', 
+      title: 'Fashion App', 
+      description: 'Designed to bridge the gap between users and fashion service providers such as tailors and vendors.', 
+      techStack: ['No-code(Flutterflow.io)'], 
+      imgUrl: coutureHub, 
       detailsLink: '/projects/1'
     },
     { 
@@ -100,10 +102,10 @@ const Projects = () => {
     },
     {
       id: 102, 
-      title: 'Project 4', 
-      description: 'Short description of the ongoing project 4', 
-      techStack: ['Python', 'Django'], 
-      imgUrl: 'project4-thumbnail.jpg',
+      title: 'Med Lab App', 
+      description: 'Simplifying Access to Medical Services', 
+      techStack: ["No-code(Flutterflow.io)"], 
+      imgUrl: medlab,
       detailsLink: '/projects/102'
     },
     // Add more current projects here

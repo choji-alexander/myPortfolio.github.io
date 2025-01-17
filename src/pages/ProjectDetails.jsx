@@ -22,35 +22,45 @@ import multimedia3 from "../assets/multimedia3.png";
 import gsws1 from "../assets/gsws.png";
 import gsws2 from "../assets/gsws2.png";
 import gsws3 from "../assets/gsws3.png"
+import medlab1 from "../assets/medlab1.JPG";
+import medlab2 from "../assets/medlab2.JPG";
+import medlab3 from "../assets/medlab3.JPG";
 import emigr81 from "../assets/emigr81.png"
 import emigr82 from "../assets/emigr82.png"
 import emigr83 from "../assets/emigr83.png"
 import userAuth1 from "../assets/UserAuth1.png"
 import userAuth2 from "../assets/UserAuth2.png"
 import userAuth3 from "../assets/UserAuth3.png"
+import coutureHub1 from "../assets/coutureHub1.png"
+import coutureHub2 from "../assets/coutureHub2.png"
+import coutureHub3 from "../assets/coutureHub3.png"
 import reactCalculatorVideo from "../assets/reactCalculatorVideo.mp4";
 import blackjackVideo from "../assets/BlackJackVideo.mp4";
 import leadsTrackerVideo from "../assets/leadsTrackerVideo.mp4";
 import studyBudVideo from "../assets/studyBudVideo.mp4";
 import toDoListVideo from "../assets/toDoListVideo.mp4";
 import multimediaVideo from "../assets/multimediaVideo.mp4";
+import medlabVideo from "../assets/medlabVideo.MP4";
 import gswsVideo from "../assets/gswsVideo.mp4";
 import emigr8Video from "../assets/eMigr8Video.mp4";
 import userAuthVideo from "../assets/userAuthVideo.mp4";
+import coutureHubVideo from "../assets/coutureHubVideo.mp4";
+
 
 
 // Example projects data (replace this with a fetch call or API integration in a real app)
 const projectsData = [
   {
     id: 1,
-    title: "Project 1",
-    shortDescription: "This is a brief writeup about Project 1, its purpose, and features.",
-    gallery: ["project1-image1.jpg", "project1-image2.jpg"],
-    videos: ["https://www.youtube.com/embed/example-video1"],
-    liveLink: "https://example.com/project1",
-    repoLink: "https://github.com/example/project1",
-    techStack: ["React", "Node.js", "CSS"],
-    additionalInfo: "Project 1 was developed as a solution to ...",
+    title: "Fashion App",
+    shortDescription: `The fashion app is a dynamic platform developed using FlutterFlow, designed to bridge the gap between users and fashion service providers such as tailors and vendors. This app enables users to explore and engage with a variety of products and services tailored to their fashion needs. Tailors and vendors can showcase their offerings by uploading products and services, creating a vibrant marketplace for commerce and connection. Its intuitive design ensures a seamless user experience while providing robust features like user registration, product uploads, and a catalog browsing system.
+As the sole developer, I managed the end-to-end creation of the app, from designing the user interface to implementing the core functionality. The app highlights my ability to deliver a scalable, interactive solution for commerce and community within the fashion industry. By leveraging FlutterFlow's no-code platform, I ensured rapid development while maintaining a high standard of usability and performance.`,
+    gallery: [coutureHub1, coutureHub2, coutureHub3],
+    videos: [coutureHubVideo],
+    liveLink: "#",
+    repoLink: "#",
+    techStack: ["No-code(Flutterflow.io)"],
+    additionalInfo: `In conclusion, this project underscores my expertise in creating user-centric applications with real-world impact. The app fosters interaction between users and fashion service providers, empowering users to find tailored solutions effortlessly while enabling tailors and vendors to reach a broader audience. This blend of commerce and creativity demonstrates my commitment to building functional and accessible digital solutions.`,
   },
   {
     id: 2,
@@ -60,7 +70,7 @@ As the sole developer of the MVP1 phase, under the mentorship of senior colleagu
     gallery: [emigr81, emigr82, emigr83],
     videos: [emigr8Video],
     liveLink: "#",
-    repoLink: "https://flutterflow.io",
+    repoLink: "#",
     techStack: ['No-code(Flutterflow.io)'],
     additionalInfo: `Emigr8 demonstrates my ability to independently create functional, user-friendly applications while leveraging modern tools like FlutterFlow. This project reflects my commitment to delivering impactful solutions, combining my technical expertise with a deep understanding of user needs. Through Emigr8, I successfully bridged technology and service delivery to create a platform that simplifies complex processes for users worldwide.`,
   },
@@ -164,6 +174,18 @@ This project demonstrates my ability to integrate robust back-end solutions with
     repoLink: "https://github.com/choji-alexander/gsws",
     techStack: ['Python', 'Django', 'Javascript', 'React', 'HTML', 'CSS', 'dbsqlite'],
     additionalInfo: `The GitHub Web Stats project is a testament to my expertise in full-stack web development, showcasing my ability to build engaging and functional platforms that solve real-world problems. By integrating Django's powerful back-end capabilities with React's dynamic front-end tools, this project reflects my commitment to delivering innovative and user-friendly solutions tailored to individual needs.`,
+  },
+  {
+    id: 102,
+    title: "Med Lab App",
+    shortDescription: `The MedLab app, developed with FlutterFlow, is a comprehensive platform designed to connect users with a wide range of medical services. Whether users are seeking diagnostic tests, consultations, or specialized treatments, the app allows them to browse available options and conveniently book appointments. Its user-friendly interface ensures that navigating medical services is effortless and accessible for all users, streamlining the process of finding and scheduling healthcare.
+As the sole developer, I took charge of designing and implementing the app’s features, ensuring it is scalable, functional, and visually appealing. Key functionalities include user registration, browsing of medical services, and an integrated appointment booking system. Leveraging FlutterFlow's no-code environment, I was able to efficiently build a robust and reliable app tailored to meet healthcare needs.`,
+    gallery: [medlab1, medlab2, medlab3],
+    videos: [medlabVideo],
+    liveLink: "#",
+    repoLink: "#",
+    techStack: ['No-code(Flutterflow.io)'],
+    additionalInfo: `In conclusion, the MedLab app demonstrates my ability to create impactful, user-centered solutions in the healthcare space. By simplifying the process of accessing and scheduling medical services, the app empowers users to take control of their health while showcasing my expertise in developing functional and innovative digital platforms.`,
   },
   // Add more projects here
 ];
