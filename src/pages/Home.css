@@ -291,3 +291,36 @@
       }
   }
   
+  .home-cta-section {
+    background: #A9A9A9;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 40px; /* Add white space at the bottom */
+    border-radius: 20px; /* Keep the edges curved and pretty */
+    max-width: 66%; /* Make it span 2/3 of the screen width */
+    margin-left: auto; /* Center it horizontally */
+    margin-right: auto; /* Center it horizontally */
+  }
+  
+  
+  .home-cta-button {
+    background-color: white;
+    color: #A9A9A9;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .home-cta-button:hover {
+    background-color: #e6e6e6;
+    color: #333;
+  }
+
+  .home-cta-section p {
+    margin-bottom: 20px; /* Space between text and button */
+    font-size: 1.2rem; /* Slightly larger font for emphasis */
+  }
+  

@@ -82,27 +82,27 @@ const Home = () => {
 
       {/* Featured Projects */}
       <section className="home-featured-projects">
-        <h2>Featured Projects 'Loading...'</h2>
+        <h2>Featured Projects</h2>
         <div className="home-projects-list">
           <div className="home-project-card">
-            <h3>Project 1</h3>
-            <p>A brief description of Project 1.</p>
-            <Link to="/projects/1" className="home-project-link">View Details</Link>
+            <h3>StudyBud</h3>
+            <p>A web application that allows users to create a room to discuss topics.</p>
+            <Link to="/projects/6" className="home-project-link">View Details</Link>
           </div>
           <div className="home-project-card">
-            <h3>Project 2</h3>
-            <p>A brief description of Project 2.</p>
+            <h3>eMigr8 App</h3>
+            <p>A Cross-Platform App for Relocation and Immigration</p>
             <Link to="/projects/2" className="home-project-link">View Details</Link>
           </div>
           <div className="home-project-card">
-            <h3>Project 3</h3>
-            <p>A brief description of Project 3.</p>
-            <Link to="/projects/3" className="home-project-link">View Details</Link>
+            <h3>Github Stats Web Services</h3>
+            <p>A Django and React-Based Analytics Platform</p>
+            <Link to="/projects/101" className="home-project-link">View Details</Link>
           </div>
           <div className="home-project-card">
-            <h3>Project 4</h3>
-            <p>A brief description of Project 4.</p>
-            <Link to="/projects/3" className="home-project-link">View Details</Link>
+            <h3>Leads Tracker</h3>
+            <p>A Chrome Extension that can be used to track Leads.</p>
+            <Link to="/projects/5" className="home-project-link">View Details</Link>
           </div>
         </div>
       </section>
