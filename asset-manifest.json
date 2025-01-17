@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/myPortfolio.github.io/static/css/main.1b2a4978.css",
-    "main.js": "/myPortfolio.github.io/static/js/main.f4ba4fec.js",
+    "main.js": "/myPortfolio.github.io/static/js/main.11c29dcf.js",
     "static/js/488.91ee2a69.chunk.js": "/myPortfolio.github.io/static/js/488.91ee2a69.chunk.js",
     "static/media/eMigr8Video.mp4": "/myPortfolio.github.io/static/media/eMigr8Video.b37d4d2f5e09567b3d5b.mp4",
     "static/media/gswsVideo.mp4": "/myPortfolio.github.io/static/media/gswsVideo.6ad6810d8afe296d03dc.mp4",
+    "static/media/coutureHubVideo.mp4": "/myPortfolio.github.io/static/media/coutureHubVideo.3c676c74e605e291a11c.mp4",
+    "static/media/medlabVideo.MP4": "/myPortfolio.github.io/static/media/medlabVideo.dc3813439eba54a93983.MP4",
     "static/media/studyBudVideo.mp4": "/myPortfolio.github.io/static/media/studyBudVideo.c6a555c0ab5f9c62b960.mp4",
     "static/media/userAuthVideo.mp4": "/myPortfolio.github.io/static/media/userAuthVideo.a58e89cd9b6c98313ca8.mp4",
     "static/media/reactCalculatorVideo.mp4": "/myPortfolio.github.io/static/media/reactCalculatorVideo.46ce06707728bc96babf.mp4",
@@ -20,6 +22,7 @@
     "static/media/leadsTrackerVideo.mp4": "/myPortfolio.github.io/static/media/leadsTrackerVideo.78f84aa06cda6689f92c.mp4",
     "static/media/toDoListVideo.mp4": "/myPortfolio.github.io/static/media/toDoListVideo.4a803bee673c02486e4d.mp4",
     "static/media/beng.png": "/myPortfolio.github.io/static/media/beng.0c893dc8621ea4d84ddd.png",
+    "static/media/coutureHub.png": "/myPortfolio.github.io/static/media/coutureHub.8a15b6ce9a783aee16b4.png",
     "static/media/UserAuth.png": "/myPortfolio.github.io/static/media/UserAuth.b5e903d59883658ca88c.png",
     "static/media/leadsTracker3.png": "/myPortfolio.github.io/static/media/leadsTracker3.9c08dd677a6aa144fa2e.png",
     "static/media/profile-pic.jpg": "/myPortfolio.github.io/static/media/profile-pic.e25c41cb3637b126986f.jpg",
@@ -38,12 +41,17 @@
     "static/media/multimedia1.png": "/myPortfolio.github.io/static/media/multimedia1.cde6016899f4a2c6d795.png",
     "static/media/emigr8.png": "/myPortfolio.github.io/static/media/emigr8.69c8e0e0d24acf2fca17.png",
     "static/media/emigr82.png": "/myPortfolio.github.io/static/media/emigr82.de0a2fe7dd7257fbe0d0.png",
+    "static/media/coutureHub3.png": "/myPortfolio.github.io/static/media/coutureHub3.876335dfd61b29ac8e54.png",
     "static/media/UserAuth1.png": "/myPortfolio.github.io/static/media/UserAuth1.1020da0aa479fac1800e.png",
     "static/media/emigr83.png": "/myPortfolio.github.io/static/media/emigr83.0973ffa3ed9806b22a1f.png",
+    "static/media/medlab2.JPG": "/myPortfolio.github.io/static/media/medlab2.db63a3cffbfbd999682d.JPG",
     "static/media/gsws2.png": "/myPortfolio.github.io/static/media/gsws2.11e92793aa73fddd9d0e.png",
     "static/media/reactToDoList.png": "/myPortfolio.github.io/static/media/reactToDoList.b5eb502c2590848f355b.png",
+    "static/media/medlab3.JPG": "/myPortfolio.github.io/static/media/medlab3.abb640bea4a392901c2c.JPG",
     "static/media/UserAuth3.png": "/myPortfolio.github.io/static/media/UserAuth3.522d22851c5964033c83.png",
     "static/media/gsws.png": "/myPortfolio.github.io/static/media/gsws.50be50b2ecb9df22c409.png",
+    "static/media/medlab.JPG": "/myPortfolio.github.io/static/media/medlab.afed55065b3952696b07.JPG",
+    "static/media/medlab1.JPG": "/myPortfolio.github.io/static/media/medlab1.95fde12b36a71c607e3a.JPG",
     "static/media/leadsTracker_photo.png": "/myPortfolio.github.io/static/media/leadsTracker_photo.c3e25487b8433fcc03ce.png",
     "static/media/multimedia_photo.png": "/myPortfolio.github.io/static/media/multimedia_photo.e643e387fc0b49695513.png",
     "static/media/multimedia2.png": "/myPortfolio.github.io/static/media/multimedia2.fba2551c696ea3de79a2.png",
@@ -55,6 +63,8 @@
     "static/media/toDoList.png": "/myPortfolio.github.io/static/media/toDoList.4c8b29979290c5b5a220.png",
     "static/media/leadsTracker2.png": "/myPortfolio.github.io/static/media/leadsTracker2.72658d9d7fce44c700ad.png",
     "static/media/multimedia3.png": "/myPortfolio.github.io/static/media/multimedia3.a62b43745483039a2f98.png",
+    "static/media/coutureHub1.png": "/myPortfolio.github.io/static/media/coutureHub1.d5732c7beb0da555549f.png",
+    "static/media/coutureHub2.png": "/myPortfolio.github.io/static/media/coutureHub2.ec76eb38d8587bb7d572.png",
     "static/media/leadsTracker1.png": "/myPortfolio.github.io/static/media/leadsTracker1.c8f4ff018e8b61a7f4db.png",
     "static/media/linkedin.png": "/myPortfolio.github.io/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "static/media/toDoList3.png": "/myPortfolio.github.io/static/media/toDoList3.fe4a4864e0b9ca2f9929.png",
@@ -64,11 +74,11 @@
     "static/media/slick.woff": "/myPortfolio.github.io/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/myPortfolio.github.io/index.html",
     "main.1b2a4978.css.map": "/myPortfolio.github.io/static/css/main.1b2a4978.css.map",
-    "main.f4ba4fec.js.map": "/myPortfolio.github.io/static/js/main.f4ba4fec.js.map",
+    "main.11c29dcf.js.map": "/myPortfolio.github.io/static/js/main.11c29dcf.js.map",
     "488.91ee2a69.chunk.js.map": "/myPortfolio.github.io/static/js/488.91ee2a69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b2a4978.css",
-    "static/js/main.f4ba4fec.js"
+    "static/js/main.11c29dcf.js"
   ]
 }
