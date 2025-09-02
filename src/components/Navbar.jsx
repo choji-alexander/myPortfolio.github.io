@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaLinkedin, FaUserTie, FaInstagram, FaYoutube} from 'react-icons/fa';
 import './Navbar.css';
 import logo from "../assets/main-logo.png";
 
@@ -40,9 +40,11 @@ function Navbar() {
 
         {/* Social Media Icons */}
         <div className="navbar-socials">
-          <a href="https://facebook.com" className="social-icon"  target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+          {/*<a href="https://facebook.com" className="social-icon"  target="_blank" rel="noopener noreferrer"><FaFacebook /></a> */}
+          <a href="https://www.linkedin.com/in/alexander-choji-4a41a4188/" className="social-icon" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>          
+          <a href="https://www.freelancer.com/u/chojialexander" className="social-icon" target="_blank" rel="noopener noreferrer"><FaUserTie /></a>
           <a href="https://instagram.com/devchoji" className="social-icon" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-          <a href="https://www.linkedin.com/in/alexander-choji-4a41a4188/" className="social-icon" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="https://www.youtube.com/@devchoji" className="social-icon" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
         </div>
       </div>
     </header>

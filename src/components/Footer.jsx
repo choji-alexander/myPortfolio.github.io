@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import {FaLinkedin, FaUserTie, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 // CSS Styling for the Footer
 const footerStyle = {
@@ -33,13 +33,14 @@ function Footer() {
     <footer style={footerStyle}>
       {/* Social media icons centered */}
       <div style={socialLinksStyle}>
-        <a href="https://facebook.com" style={socialIconStyle}><FaFacebook /></a>
-        <a href="https://instagram.com" style={socialIconStyle}><FaInstagram /></a>
         <a href="https://www.linkedin.com/in/alexander-choji-4a41a4188/" style={socialIconStyle}><FaLinkedin /></a>
+        <a href="https://www.freelancer.com/u/chojialexander" style={socialIconStyle}><FaUserTie /></a>
+        <a href="https://instagram.com/devchoji" style={socialIconStyle}><FaInstagram /></a>
+        <a href="https://www.youtube.com/@devchoji" style={socialIconStyle}><FaYoutube /></a>
       </div>
       
       {/* Copyright message centered */}
-      <p>&copy; 2024 CHOJI ALEXANDER PAM. All rights reserved.</p>
+      <p>&copy; 2025 CHOJI ALEXANDER PAM. All rights reserved.</p>
     </footer>
   );
 }

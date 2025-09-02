@@ -22,7 +22,7 @@ function About() {
           <div className="about-column about-text">
             <h2>About Me</h2>
             <p>
-            I, <strong>Choji Alexander Pam,</strong> am a seasoned software developer with over four years of experience and two years of industry experience, specializing in Python, JavaScript, Django and web development, mobile app development, machine learning, web automation and much more. My passion for crafting innovative solutions to complex problems drives me to constantly seek out new challenges and refine my skills.
+            I, <strong>Choji Alexander Pam,</strong> am a seasoned software developer with over five years of experience and three years of industry experience, specializing in Python, JavaScript, Flutter/Dart, FlutterFlow, Wordpress to enhance web development, mobile app development, machine learning, web automation and much more. My passion for crafting innovative solutions to complex problems drives me to constantly seek out new challenges and refine my skills.
             </p>
             <p>
             I thrive in dynamic, collaborative environments and I am dedicated to producing high-quality, maintainable code that meets both technical and business requirements. I'm a strong advocate for clean, readable code and am passionate about delivering software that is robust, scalable, and reliable.
@@ -36,7 +36,7 @@ function About() {
             <div class="details-container">
                 <img src={experienceIcon} alt="Experience icon" class="icon"></img>
                 <h3>Experience</h3>
-                <p>4+ years <br />Software Development/Engineering <br />Freelance</p>
+                <p>5+ years <br />Software Development/Engineering <br />Entrepreneurship/Freelance</p>
             </div>
             <div class="details-container">
                 <img src={educationIcon} alt="Education icon" class="icon"></img>
@@ -77,12 +77,14 @@ function About() {
       <section className="skills-section">
         <h2>Technical Skills</h2>
         <ul className="skills-list">
+          <li>Flutter / Dart</li>
           <li>React.js / JavaScript</li>
           <li>HTML5 / CSS3 / Wordpress</li>
           <li>Python / Django</li>
+          <li>FlutterFlow (No Code Software Development)</li>
           <li>AI / Machine learning</li>
           <li>API Integration / Django-rest framework</li>
-          <li>Mobile App Development</li>
+          <li>Mobile App Development (IOS / Android)</li>
           <li>Web Application Development / Website Development</li>
           <li>MySQL / Postgresql</li>
           <li>Data Science / Data Analysis</li>
@@ -95,10 +97,8 @@ function About() {
           <li>Requests / Response</li>
           <li>CCNA Networking</li>
           <li>DevOps / Shell Scripting</li>
-          <li>No Code Software Development(Flutterfolw)</li>
           <li>FireBase / FireStore</li>
           <li>Open-Source / Collaboration</li>
-          <li>Dart</li>
           <li>SciKit learn / Numpy</li>
           <li>Pandas / Matplotlib</li>
           <li>Selenium / Bootstraps</li>
@@ -136,9 +136,9 @@ function About() {
       <section className="contact-cta">
         <h2>Let's Connect!</h2>
         <p>
-          I'm open to freelance opportunities, collaborations, or exciting full-time roles.
+          I'm open to freelance opportunities, collaborations, contracts or exciting part-time/remote roles.
         </p>
-        <a href="/contact" className="cta-button">
+        <a href="#/contact" className="cta-button">
           Contact Me
         </a>
       </section>

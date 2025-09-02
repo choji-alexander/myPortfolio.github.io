@@ -23,9 +23,19 @@ const ExperienceCard = ({ title, company, date, tasks }) => {
 const Experience = () => {
   const experiences = [
     {
+      title: "Freelancing Entrepreneur - Software Developer/Engineer",
+      company: "Freelancer, Upwork, Fiverr, Worldwide",
+      date: "March, 2025 -> Present",
+      tasks: [
+        "Develop mobile applications(IOS and Android) using flutterflow, flutter/dart and AI.",
+        "Develop Software Applications and solutions for mobile, desktop or any platform using no-code, python, React, mysql and more depending on requirement.",
+        "Build and revamp websites for clients, build from scratch using wordpress, HTML, CSS, javascript and AI tools.",
+      ],
+    },
+    {
       title: "Web Developer",
       company: "Lead Web Media Praxis | Utako, Abuja, Nigeria",
-      date: "August, 2024 -> Present",
+      date: "August, 2024 -> February, 2025",
       tasks: [
         "Develop and revamp websites for clients, build from scratch using wordpress, HTML, CSS, javascript and AI tools.",
         "Develop Software Applications for mobile, desktop or any platform using no-code, python, React, mysql and more depending on requirement",

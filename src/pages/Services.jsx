@@ -13,8 +13,8 @@ import beng from "../assets/beng.png";
 
 const ServicesCertifications = () => {
   const services = [
-    { title: "Web Development", description: "Creating responsive and dynamic websites.", icon: "🌐" },
-    { title: "Mobile App Development", description: "Building user-friendly mobile applications.", icon: "📱" },
+    { title: "Website/Web Applications", description: "Creating responsive and modern websites or web applications.", icon: "🌐" },
+    { title: "Mobile App Development", description: "Designing seamless IOS and Android applications.", icon: "📱" },
     { title: "UI/UX Design", description: "Designing intuitive user interfaces and experiences.", icon: "🎨" },
     { title: "Digital Marketing", description: "SEO, social media marketing, and branding.", icon: "📈" },
     { title: "Web Application Development", description: "Crafting scalable and secure web applications tailored to business needs.", icon: "💻" },
