@@ -40,6 +40,27 @@ const ContactMe = () => {
           </div>
         </div>
       </section>
+                     {/* WhatsApp Click to Chat Button */}
+                <div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+                  <a
+                    href="https://wa.me/2348109976687"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      backgroundColor: '#25D366',
+                      color: 'white',
+                      padding: '12px 24px',
+                      borderRadius: '8px',
+                      textDecoration: 'none',
+                      fontWeight: 'bold',
+                      fontSize: '1.1rem',
+                      boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+                      display: 'inline-block'
+                    }}
+                  >
+                    💬 Chat on WhatsApp
+                  </a>
+                </div>
 
       {/* Inquiry Form Section */}
       <section className="inquiry-form">
