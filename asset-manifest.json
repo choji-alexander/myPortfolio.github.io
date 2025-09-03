@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myPortfolio.github.io/static/css/main.0620bc65.css",
-    "main.js": "/myPortfolio.github.io/static/js/main.2dcf309b.js",
+    "main.js": "/myPortfolio.github.io/static/js/main.69804434.js",
     "static/js/488.91ee2a69.chunk.js": "/myPortfolio.github.io/static/js/488.91ee2a69.chunk.js",
     "static/media/whatTimeVid.mp4": "/myPortfolio.github.io/static/media/whatTimeVid.bbfe46bcedc303bc9702.mp4",
     "static/media/proppalVid.mp4": "/myPortfolio.github.io/static/media/proppalVid.026b97ef55208c23c9a3.mp4",
@@ -107,11 +107,11 @@
     "static/media/slick.ttf": "/myPortfolio.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/myPortfolio.github.io/static/media/slick.295183786cd8a1389865.woff",
     "main.0620bc65.css.map": "/myPortfolio.github.io/static/css/main.0620bc65.css.map",
-    "main.2dcf309b.js.map": "/myPortfolio.github.io/static/js/main.2dcf309b.js.map",
+    "main.69804434.js.map": "/myPortfolio.github.io/static/js/main.69804434.js.map",
     "488.91ee2a69.chunk.js.map": "/myPortfolio.github.io/static/js/488.91ee2a69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0620bc65.css",
-    "static/js/main.2dcf309b.js"
+    "static/js/main.69804434.js"
   ]
 }
